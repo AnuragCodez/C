@@ -1,6 +1,7 @@
 #include<stdio.h>
 int main()
 {
+    //Loops in C
    int a,i;
    printf("Enter Your Number");
     scanf("%d",&a);
