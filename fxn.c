@@ -8,9 +8,6 @@ int anurag()
     printf("%d",x+y);
 }
 
-
-
-
 int main()
 {
    int anurag();

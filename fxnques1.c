@@ -17,8 +17,4 @@ int main()
     int k;
      k=2;
     anurag(k);
-   
-    
-
-
 }
