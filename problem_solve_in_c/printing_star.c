@@ -2,10 +2,17 @@
 int main()
 {
    int row,ROW,col,COL;
-
-   while (/* condition */)
+row=1; ROW=4;
+   while (row<=ROW)
    {
-    /* code */
+    col=1;
+while (col<=row)
+{
+    printf("*");
+col++;
+}
+printf("\n");
+row++;
    }
    
 
