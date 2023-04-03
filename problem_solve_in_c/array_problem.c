@@ -1,23 +1,30 @@
 #include<stdio.h>
+#include<math.h>
 int main()
 { 
+float mean;
+int sum=0 ;
+float count=0;
+int n=3;
+int X[n];
 
-// int a[4] = {1,2,3,4};
-// int b[4]= {1,2,3,4};
+for (int i = 0; i <n; i++)
+{
+   printf("Enter value");
+    scanf("%d",&X[i]);
 
-// for (int i = 0; i <=3; i++)
-// {
-//     if (a[i]==b[i])
-//     {
-//         printf("1");
-//     }
-//     else
-//     {
-//         printf("0");
-//     }
-// }
+    sum= sum+X[i];
+}
+mean =sum/n;
+printf("%f\n",mean);
 
+for (int i = 0; i < n; i++)
+{
+    count = count + (X[i]-mean)*(X[i]-mean);
+}
 
+float dash = count/n;
+printf("%f",sqrt(dash));
 
 return 0;
 }
