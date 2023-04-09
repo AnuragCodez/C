@@ -37,7 +37,6 @@ for (int i = 0; i < p; i++)
   {
     c[i][j] = a[i][j]+b[i][j];
   }
-  
 }
 
 for (int i = 0; i < p; i++)
