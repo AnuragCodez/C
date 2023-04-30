@@ -1,27 +1,46 @@
 
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
 
-   char arr[5] = {'n','i','t','i','n'};
+   int n;
+   scanf("%d", &n);
+   char arr[n + 1];
 
-   int c=0;
-
-   for(int i=0; i<5; i++)
+   for (int i = 0; i <= n; i++)
    {
-      if(arr[i]!=arr[(5-i)-1])
+      scanf("%c", &arr[i]);
+   }
+   for (int i = 0; i <= n; i++)
+   {
+      printf("%c", arr[i]);
+   }
+   //  printf("\n%c",arr[0]);
+   // printf("%c",arr[1]);
+
+   // printf("%c",arr[2]);
+
+   // printf("%c",arr[3]);
+
+   // printf("%c",arr[4]);
+   // printf("%c",arr[5]);
+   int c = 0;
+
+   for (int j = 1; j <= n / 2; j++) // yaha pe j=1 liya hai cauz j=0 pe null vakue aa rhi thi even idk why 
+   {
+      if (arr[j] != arr[n - j + 1])
       {
          c++;
       }
    }
 
-   if(c==0)
+   if (c == 0)
    {
-      printf("string is palindrome");
+      printf("\nisP");
    }
    else
    {
-      printf("string is not palindrome");
+      printf("\nNP");
    }
 
    return 0;
