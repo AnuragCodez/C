@@ -36,7 +36,7 @@ while (arr[m]!=a && arr[0]<=arr[n-1])
 
 if (arr[m]=a)
 {
-   printf("Found array at position %d and value is %d ",arr[m],a);
+   printf("Found array at position %d and value is %d ",m,a);
 }
 else
 {

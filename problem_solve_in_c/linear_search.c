@@ -14,7 +14,6 @@ for (int i = 0; i <n; i++)
 printf("Enter number to be search");
 int a;
 scanf("%d",&a);
-
 for (int i = 0; i <n; i++)
 {
     if (arr[i]==a)
@@ -23,8 +22,5 @@ for (int i = 0; i <n; i++)
         break;
     }
 }
-
-        
-
 return 0;
 }

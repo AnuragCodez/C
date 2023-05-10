@@ -1,4 +1,3 @@
-/*
 #include<stdio.h>
 int main()
 {
@@ -19,8 +18,7 @@ printf("%x",*q);
 
 return 0;
 }
-*/
-/*
+
 #include<stdio.h>
 int main()
 {
@@ -36,8 +34,7 @@ int main()
 
 return 0;
 }
-*/
-/*
+
 #include<stdio.h>
 int main()
 {
@@ -54,7 +51,7 @@ printf("%d %d\n",p1,p2);
 printf("p1=%d p2=%d",p1,p2);
 return 0;
 }
-*/
+
 
 #include<stdio.h>
 int main()
