@@ -1,6 +1,7 @@
 #include<stdio.h>    
 int main()
-{  int a[10],n,i,count=0;
+{ 
+    int a[10],n,i,count=0;
    printf("Enter the number to convert: ");
    scanf("%d",&n);    
    for(i=0;n>0;i++)    
